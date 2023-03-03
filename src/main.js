@@ -1,93 +1,86 @@
-const _0x144257 = _0x1d5e;
-(function (_0x3fc3e8, _0x566af2) {
-    const _0x1db9f2 = _0x1d5e;
-    const _0x150828 = _0x3fc3e8();
+(function (_0x131a6d, _0x3ba80f) {
+    const _0x41434a = _0x1414;
+    const _0x13ce1f = _0x131a6d();
     while (!![]) {
         try {
-            const _0x2ea95a = -parseInt(_0x1db9f2(0x179)) / 0x1 * (parseInt(_0x1db9f2(0x16e)) / 0x2) + -parseInt(_0x1db9f2(0x178)) / 0x3 * (-parseInt(_0x1db9f2(0x17e)) / 0x4) + parseInt(_0x1db9f2(0x170)) / 0x5 * (-parseInt(_0x1db9f2(0x17f)) / 0x6) + parseInt(_0x1db9f2(0x171)) / 0x7 + parseInt(_0x1db9f2(0x172)) / 0x8 + -parseInt(_0x1db9f2(0x177)) / 0x9 + -parseInt(_0x1db9f2(0x175)) / 0xa * (-parseInt(_0x1db9f2(0x17b)) / 0xb);
-            if (_0x2ea95a === _0x566af2) {
+            const _0x2e02e1 = -parseInt(_0x41434a(0x8e)) / 0x1 * (-parseInt(_0x41434a(0x7e)) / 0x2) + -parseInt(_0x41434a(0x8c)) / 0x3 + parseInt(_0x41434a(0x7b)) / 0x4 + -parseInt(_0x41434a(0x8a)) / 0x5 * (-parseInt(_0x41434a(0x81)) / 0x6) + parseInt(_0x41434a(0x83)) / 0x7 * (-parseInt(_0x41434a(0x85)) / 0x8) + -parseInt(_0x41434a(0x87)) / 0x9 * (parseInt(_0x41434a(0x7f)) / 0xa) + -parseInt(_0x41434a(0x80)) / 0xb * (-parseInt(_0x41434a(0x7c)) / 0xc);
+            if (_0x2e02e1 === _0x3ba80f) {
                 break;
             } else {
-                _0x150828['push'](_0x150828['shift']());
+                _0x13ce1f['push'](_0x13ce1f['shift']());
             }
-        } catch (_0x2666da) {
-            _0x150828['push'](_0x150828['shift']());
+        } catch (_0x208542) {
+            _0x13ce1f['push'](_0x13ce1f['shift']());
         }
     }
-}(_0x242a, 0x87e8c));
+}(_0x3e9b, 0x7888a));
+function _0x3e9b() {
+    const _0x1eb2ff = [
+        '295731SHpAHT',
+        'https://api.codename-t.com/checkKey?site=',
+        'location',
+        '85lXVFmy',
+        'log',
+        '1699524uMpVhX',
+        'data',
+        '10dZtFgY',
+        'get',
+        'use',
+        'localhost',
+        'value',
+        '2199164ffTdji',
+        '12ZrZlVw',
+        'isMatched',
+        '163364hyKzBV',
+        '170idOCSj',
+        '2346905KztCTB',
+        '68808PsPySg',
+        'hostname',
+        '218547NkwSau',
+        '#app',
+        '40PiqRYz',
+        'mount'
+    ];
+    _0x3e9b = function () {
+        return _0x1eb2ff;
+    };
+    return _0x3e9b();
+}
 import {
     createApp,
     ref
 } from 'vue';
-function _0x242a() {
-    const _0x2c69ff = [
-        '6vtrBEv',
-        '#app',
-        'hostname',
-        'log',
-        'CopyKiller\x20by\x20https://github.com/moking55',
-        'data',
-        'value',
-        'use',
-        '570RVkuyC',
-        'then',
-        '2319865mimQyF',
-        '2539880mQLynA',
-        '2605176ZQZRYT',
-        'get',
-        'catch',
-        '140ekFrMb',
-        'mount',
-        '8923842AOdNjc',
-        '381sLLXcw',
-        '2333OyluTV',
-        'https://api.codename-t.com/checkKey?site=',
-        '745536pHQpfW',
-        '2.0',
-        'location',
-        '32748rmvUPk'
-    ];
-    _0x242a = function () {
-        return _0x2c69ff;
-    };
-    return _0x242a();
-}
 import { createPinia } from 'pinia';
-import _0x46166c from './App.vue';
-import _0x5bc0d1 from './router';
-import _0x112611 from './errors/Activation.vue';
-import _0x27d3e8 from './errors/NetworkError.vue';
-import _0x4fe310 from 'axios';
-import './assets/main.css';
-import './assets/pico.min.css';
+import _0x23d5e5 from './errors/Activation.vue';
+import _0x2789ab from './errors/NetworkError.vue';
+import _0x593b14 from 'axios';
+import _0x3d4430 from './App.vue';
+import _0x2cfa11 from './router';
 import './firebase';
-const is_verified = ref(![]);
-console[_0x144257(0x182)]({
-    'killer': _0x144257(0x183),
-    'version': _0x144257(0x17c)
-});
-if (window['location'][_0x144257(0x181)] == 'localhost' || is_verified[_0x144257(0x16c)]) {
-    is_verified[_0x144257(0x16c)] = !![];
-} else {
-    await _0x4fe310[_0x144257(0x173)](_0x144257(0x17a) + window[_0x144257(0x17d)][_0x144257(0x181)] + '&ac=check')[_0x144257(0x16f)](_0x57a271 => {
-        const _0x363dcd = _0x144257;
-        is_verified['value'] = _0x57a271[_0x363dcd(0x16b)][_0x363dcd(0x16b)]['isMatched'];
-        console[_0x363dcd(0x182)](_0x57a271[_0x363dcd(0x16b)][_0x363dcd(0x16b)]);
-    })[_0x144257(0x174)](() => {
-        const _0x163fba = _0x144257;
-        throw createApp(_0x27d3e8)[_0x163fba(0x176)](_0x163fba(0x180));
-    });
-}
-const app = createApp(is_verified['value'] ? _0x46166c : _0x112611);
-app[_0x144257(0x16d)](_0x5bc0d1);
-function _0x1d5e(_0x38f89a, _0x5cd170) {
-    const _0x242ab7 = _0x242a();
-    _0x1d5e = function (_0x1d5e14, _0x3cfa55) {
-        _0x1d5e14 = _0x1d5e14 - 0x16b;
-        let _0x139de1 = _0x242ab7[_0x1d5e14];
-        return _0x139de1;
+function _0x1414(_0x27060a, _0x2f1e93) {
+    const _0x3e9bef = _0x3e9b();
+    _0x1414 = function (_0x1414a2, _0x3d0cc4) {
+        _0x1414a2 = _0x1414a2 - 0x77;
+        let _0x59ab54 = _0x3e9bef[_0x1414a2];
+        return _0x59ab54;
     };
-    return _0x1d5e(_0x38f89a, _0x5cd170);
+    return _0x1414(_0x27060a, _0x2f1e93);
 }
-app[_0x144257(0x16d)](createPinia());
-app[_0x144257(0x176)]('#app');
+import './assets/pico.min.css';
+import './assets/main.css';
+async function initApp() {
+    const _0xdf46e5 = _0x1414;
+    const _0x96e222 = ref(![]);
+    try {
+        const _0x4ace1f = await _0x593b14[_0xdf46e5(0x77)](_0xdf46e5(0x88) + window[_0xdf46e5(0x89)][_0xdf46e5(0x82)] + '&ac=check');
+        _0x96e222[_0xdf46e5(0x7a)] = window[_0xdf46e5(0x89)][_0xdf46e5(0x82)] == _0xdf46e5(0x79) || _0x4ace1f[_0xdf46e5(0x8d)][_0xdf46e5(0x8d)][_0xdf46e5(0x7d)];
+        console[_0xdf46e5(0x8b)](_0x4ace1f['data'][_0xdf46e5(0x8d)]);
+    } catch (_0x4575db) {
+        throw createApp(_0x2789ab)[_0xdf46e5(0x86)](_0xdf46e5(0x84));
+    }
+    const _0x5e9257 = _0x96e222['value'] ? createApp(_0x3d4430) : createApp(_0x23d5e5);
+    _0x5e9257[_0xdf46e5(0x78)](createPinia());
+    _0x5e9257[_0xdf46e5(0x78)](_0x2cfa11);
+    _0x5e9257[_0xdf46e5(0x86)](_0xdf46e5(0x84));
+}
+initApp();
