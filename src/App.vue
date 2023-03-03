@@ -27,14 +27,14 @@ function signOutButton() {
 <template>
   <header>
     <nav class="container" style="margin-top: 2em" v-if="auth.isLogin">
-      <RouterLink to="/">ทั้งหมด</RouterLink>
-      <RouterLink to="/add">เพิ่มโน้ตใหม่</RouterLink>
+      <RouterLink to="/">&#x1F3E0; ทั้งหมด</RouterLink>
+      <RouterLink to="/add">&#128214; เพิ่มโน้ตใหม่</RouterLink>
       <div></div>
-      <h4 class="web-title">Quick Note</h4>
+      <h3 class="web-title" >Quick Note &#x1F58A;</h3>
       <div></div>
       <div></div>
       <div></div>
-      <a @click="signOutButton">ออกจากระบบ</a>
+      <a @click="signOutButton">&#128683; ออกจากระบบ</a>
     </nav>
   </header>
   <RouterView />
